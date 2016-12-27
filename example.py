@@ -13,7 +13,7 @@ import time
 #IMPORTANT INFORMATION!
 ##Likes,Comments,Follows, and Unfollows have been tweaked to the amount of hours the bot runs for!
 ###So if your like_per_day=1000 and the bot runs for 2 hours, it will try to post that many in those two hours!
-bot = InstaBot(login="dailyluxhype", password="Saturday12march2011",
+bot = InstaBot(login="xxxx", password="xxxx",
                like_per_day=1000,
                comments_per_day=0,
                tag_list=['follow4follow', 'f4f', 'luxury', 'cool', 'style', 'stylish', 'fashion', 'lifestyle'],
