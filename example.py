@@ -13,30 +13,28 @@ import time
 #IMPORTANT INFORMATION!
 ##Likes,Comments,Follows, and Unfollows have been tweaked to the amount of hours the bot runs for!
 ###So if your like_per_day=1000 and the bot runs for 2 hours, it will try to post that many in those two hours!
-bot = InstaBot(login="username", password="password",
+bot = InstaBot(login="dailyluxhype", password="Saturday12march2011",
                like_per_day=1000,
                comments_per_day=0,
-               tag_list=['follow4follow', 'f4f', 'cute'],
+               tag_list=['follow4follow', 'f4f', 'luxury', 'cool', 'style', 'stylish', 'fashion', 'lifestyle'],
                tag_blacklist=['rain', 'thunderstorm'],
                user_blacklist={},
-               max_like_for_one_tag=50,
-               follow_per_day=300,
+               max_like_for_one_tag=100,
+               follow_per_day=500,
                follow_time=1*60,
-               unfollow_per_day=300,
+               unfollow_per_day=150,
                unfollow_break_min=15,
                unfollow_break_max=30,
                log_mod=0,
-               proxy='',
+               proxy=''
                # Use unwanted username list to block users which have username contains one of this string
                ## Doesn't have to match entirely example: mozart will be blocked because it contains *art
                ### freefollowers will be blocked because it contains free
-               unwanted_username_list=['second','stuff','art','project','love','life','food','blog','free','keren','photo','graphy','indo',
-                                       'travel','art','shop','store','sex','toko','jual','online','murah','jam','kaos','case','baju','fashion',
-                                        'corp','tas','butik','grosir','karpet','sosis','salon','skin','care','cloth','tech','rental',
-                                        'kamera','beauty','express','kredit','collection','impor','preloved','follow','follower','gain',
-                                        '.id','_id','bags'],
-               bot_running_hour_start = 0,
-               bot_running_hour_end = 23
+			   
+			   
+               #bot_running_hour_start = 14,
+               #bot_running_hour_end = 17,
+               #unwanted_username_list=['indo','travel','art','shop','store','sex','toko','jual','online','murah','jam','kaos','case','baju','tas','butik']
 			   #Change these to whatever hours you like
 			   ##The bot will only run during these hours and sleep 
 			   ### HOURS BETWEEN 0-24 ONLY!!!!!!!!!!!!!!!!
@@ -48,6 +46,7 @@ bot = InstaBot(login="username", password="password",
 			   #####bot_running_hour_end = 4
 			   #### BOTH OF THESE ARE VALID HOURS AND WORK!
                )
+			   
 while True:
 
     #print("# MODE 0 = ORIGINAL MODE BY LEVPASHA")
